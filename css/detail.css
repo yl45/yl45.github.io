@@ -1,0 +1,302 @@
+.crumb-wrap {
+	margin-top: 20px;
+	height: 25px;
+}
+.crumb-wrap a {
+	margin-right: 10px;
+}
+.product-intro {
+	overflow: hidden;
+}
+.preview-wrap{
+	float: left;
+	width: 400px;
+	height: 590px;
+}
+.preview-img {
+	position: relative;
+	width: 398px;
+	height: 398px;
+	border: 1px solid #ccc;
+
+}
+.mask {
+	display: none;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+	background-color: orange;
+	opacity:.3;
+	cursor: move;
+}
+.big {
+	display: none;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top:0;
+	left:410px;
+	border: 1px solid #ccc;
+	z-index: 999;
+	overflow: hidden;
+}
+.bigimg {
+	position: relative;
+	top:0;
+	left:0;
+	z-index: 1000;
+}
+.preview-list {
+	position: relative;
+	height: 60px;
+	margin-top: 60px;
+}
+.preview-list ul {
+	
+	width: 320px;
+	height: 60px;
+	margin: auto;
+}
+.preview-list li {
+	float: left;
+	width: 56px;
+	height: 56px;
+	border: 2px solid transparent;
+	margin: 0 2px;
+}
+.preview-list .counent {
+	border: 2px solid red;
+}
+.preview-list a {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	width: 22px;
+	height: 32px;
+}
+.arrow-prev {
+	background: url(../img/arrow-prev.png) no-repeat;
+	left: 0;
+}
+.arrow-next {
+	background: url(../img/arrow-next.png) no-repeat;
+	right: 0;
+}
+.iteminfo-wrap {
+	width: 718px;
+}
+.iteminfo-wrap h3 {
+	font-size: 16px;
+	height: 30px;
+}
+.iteminfo-wrap p {
+	color: #e12228;
+	height: 32px;
+}
+.summary dt,
+.summary dd {
+	float: left;
+}
+.summary-price {
+	position: relative;
+	background-color: #fee9eb;
+	padding: 10px 0; 
+
+}
+.summary dt {
+	width: 60px;
+	padding-left: 10px;
+	line-height: 36px;
+}
+.summary-price dd i {
+	font-size:24px;
+	color: #e12228; 
+}
+.summary-price dd a {
+	color: #c81623;
+}
+.summary-price dd span {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.promition {
+	background-color: #fee9eb;
+	padding-bottom: 10px;
+}
+.promition dd {
+	width: 550px;
+}
+.promition dd em {
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	background-color: #c81623;
+	line-height: 20px;
+	color: white;
+	text-align: center;
+}
+dd {
+	line-height: 36px;
+}
+.choose a {
+	display: inline-block;
+	width: 80px;
+	height: 41px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	text-align: center;
+	line-height: 41px;
+}
+.choose .current {
+	border-color: #c81623;
+}
+.version {
+	margin-top: 10px;
+}
+.version a {
+	display: inline-block;
+	height: 32px;
+	padding:0 12px;
+	border: 1px solid #ededed;
+	background-color: #f7f7f7;
+	text-align: center;
+	line-height: 32px;
+}
+.choose-btns{
+	margin-top: 20px;
+
+}
+.choose-amount{
+	float: left;
+	position: relative;
+	width: 51px;
+	height: 46px;
+	background-color: red;
+}
+.choose-amount input {
+	width: 33px;
+	height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.choose-amount a {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.choose-btns-s {
+	top: 0;
+}
+.choose-btns-x {
+	bottom: 0;
+	cursor: not-allowed;
+}
+.choose-btns .gwc {
+	float: left;
+	width: 142px;
+	height: 46px;
+	background-color: #c81623;
+	color: white;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 46px;
+	margin-left: 15px;
+}
+.choose-btns .gwc:hover {
+	color: #e33333;
+}
+.choose-btns{
+	width: 300px;
+}
+.aside {
+	float: left;
+	width: 208px;
+	border: 1px solid #ccc;
+}
+.tab-list {
+	height: 33px;
+}
+.first {
+	width: 104px;
+}
+.second {
+	width: 103px;
+	border-left: 1px solid #ccc;
+}
+.tab-list li {
+	float: left;
+	text-align: center;
+	line-height: 33px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #ccc;
+}
+.tab-list .current {
+	color: red;
+	background-color: white;
+	border-bottom: none;
+}
+.tab-con {
+	margin: 0 9px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.tab-con p {
+	font-size: 12px;
+}
+.tab-con h5 {
+	margin-top: 10px;
+	font-size: 12px;
+}
+.tab-con a {
+	display: block;
+	width: 88px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin: 10px auto;
+	background-color: #f7f7f7;
+
+}
+.detail {
+	float: right;
+	width: 978px;
+}
+.detail-list {
+	height: 39px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+}
+.detail-list li {
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	padding:0 20px;
+	cursor: pointer;
+}
+.detail-list .current {
+	background-color: #c81623;
+	color: white;
+}
+.detail-con ul {
+	padding: 20px 0 0 20px;
+}
+.detail-con li {
+	line-height: 22px;
+}
+.detail-con a {
+	float: right;
+	font-weight: 700;
+}
+.product-detail {
+	margin-bottom: 70px;
+}

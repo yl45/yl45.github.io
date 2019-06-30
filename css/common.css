@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding:0;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ .icomoon {
+	font-family:"icomoon";
+	margin-left: 5px;
+	line-height:20px; 
+}
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.shortcat {
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcat .fl li {
+	float: left;
+}
+.style-red {
+	color: #c81632;
+}
+.shortcat .fr li {
+	float: left;
+}
+.shortcat .fr .spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+.header {
+	position: relative;
+	height: 105px;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	
+
+}
+
+ .header .logo a {
+	display: block;
+	width: 175px;
+	height: 56px;
+	font-size: 0;
+	background-image: url(../img/logo.png);
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.search input {
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	color: #ccc;
+	padding-left: 10px;
+}
+.search button {
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #b1191a;
+	color: white;
+	font-size: 20px;
+}
+.hotwrods {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwrods a {
+	margin: 0 10px;
+}
+.shopcar {
+	position: absolute;
+	top: 25px;
+	right: 64px;
+	width: 138px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	border: 1px solid #dfdfdf;
+
+}
+.car {
+	color: #da5555;
+}
+.arrow {
+	margin-left: 10px;
+	line-height: 36px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 14px;
+	padding: 1px 3px;
+	border-radius: 7px 7px 7px 0;
+	background-color: #E60012;
+	color: white;
+	line-height: 14px;
+	font-size: 14px;
+
+}
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+.dorpdown {
+	width: 209px;
+	height: 45px;
+	background-color: #b1191a;
+}
+.dt {
+	height: 100%;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+}
+.dd {
+	height: 465px;
+	background-color: #c81623;
+	margin-top: 2px;
+}
+.dd li {
+	height: 31px; 
+	line-height: 31px;
+	color: white;
+	padding:0 10px;
+	margin-left: 1px;
+	transition: all .5s;
+}
+.dd li:hover {
+	background-color: #fff;
+	padding-left: 15px;
+
+}
+.dd li:hover a {
+	color: #c81632;
+}
+.dd li a {
+	color: white;
+	font-size: 14px;
+}
+.dd li span {
+	float: right;
+}
+.navitems {
+	margin-left: 10px;
+}
+.navitems ul li {
+	float: left;
+}
+.navitems ul li a {
+	display: block;
+	height: 45px;
+	font-size: 16px;
+	padding: 0 16px 0 25px;
+	line-height: 45px;
+
+}
+.footer {
+	height: 386px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.mod-service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod-service li {
+	float: left;
+	width: 20%;
+	height: 79px;
+}
+.mod-service-a {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png) no-repeat -253px -3px;
+	margin-left: 35px;
+}
+.mod-service-b {
+	float: left;
+	margin-left: 5px;
+}
+.mod-service-b h5 {
+	margin: 5px 0;
+}
+.mod-service-c {
+	background: url(../img/icons.png) no-repeat -255px -54px;
+}
+.mod-service-d {
+	background: url(../img/icons.png) no-repeat -257px -105px;
+}
+.mod-service-e {
+	background: url(../img/icons.png) no-repeat -257px -156px;
+}
+.mod-service-f {
+	background: url(../img/icons.png) no-repeat -256px -208px;
+}
+.mod-help {
+	height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod-help dl {
+	float: left;
+	width: 150px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.mod-help dt {
+	font-size: 16px;
+	height: 25px;
+}
+.mod-help dd {
+	height: 22px;
+}
+.y img {
+	margin: 10px 0;
+}
+.y p,
+.y dt {
+	padding-left: 15px;
+}
+.navitems {
+	text-align: center;
+}
+.navitems a {
+	padding: 0 5px;
+}
+.navitems .l {
+	margin: 25px 0 16px 0;
+
+}

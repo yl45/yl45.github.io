@@ -1,0 +1,269 @@
+.main {
+	
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	float: left;
+	width: 721px;
+	height: 455px;
+	overflow: hidden;
+}
+.focus .z,
+.focus .m {
+	
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	display: none;
+	width: 24px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: white;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 100;
+	
+}
+.focus .z {
+	left: 0;
+}
+.focus .m {
+	right: 0;
+}
+.focus a:hover {
+	color: red;
+}
+.focus ul {
+	width: 500%;
+	position: absolute;
+	top:0;
+	left: 0;
+}
+.focus ul li{
+	float: left;
+}
+.focus ol {
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+}
+.focus ol li {
+	float: left;
+}
+.focus ol li {
+	
+	width: 10px;
+	height: 10px;
+	margin-right: 3px;
+	border-radius: 50%;
+	border: 2px solid rgba(255, 255, 255, .5);
+}
+.focus .current {
+	background-color: #fff;
+}
+.newsflash {
+	float: right;
+	width: 250px;
+	height: 455px;
+}
+.news {
+
+	height: 163px;
+	border: 1px solid #ccc;
+}
+.news-hd {
+	height: 32px;
+	border-bottom: 1px dotted #ccc;
+	line-height: 32px;
+	padding-right: 10px;
+}
+.news-hd span {
+	font-size: 14px;
+	padding-left: 15px;
+}
+.news-hd a {
+	float: right;
+}
+.news-bd {
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.news-bd li {
+	height: 23px;
+}
+.lifeservice {
+	height: 208px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+
+}
+.lifeservice li {
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.lifeservice .d {
+	position: relative;
+}
+.lifeservice .dd {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+	background:url(../img/jian.jpg);
+}
+.tu {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../img/icons.png) no-repeat -17px -16px;
+}
+.pian {
+	width: 26px;
+	background: url(../img/icons.png) no-repeat -78px -16px;
+}
+.lifeservice a {
+	display: block;
+	width: 62px;
+	height: 70px;
+	overflow: hidden;
+}
+.bargain {
+	height: 75px;
+	margin-top:5px; 
+}
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recommend-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+	color: white;
+}
+.recommend-hd img {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.recommend-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recommend-bd li {
+	float: left;
+	width: 249px;
+	height: 145px;
+	margin-top: 10px;
+	border-right: 1px solid #ccc;
+}
+.recommend-bd .yl {
+	border-right: 0;
+}
+.hd {
+	height: 30px;
+	margin-top: 25px;
+	border-bottom: 2px solid #c81632;
+}
+.hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81632;
+}
+.tab-list {
+	float: right;
+}
+.tab-list li {
+	float: left;
+	line-height: 30px;
+}
+.tab-list li a {
+	margin: 0 15px;
+}
+.bd {
+	height: 360px;
+	/*background-color: pink;*/
+}
+.bd li {
+	height: 360px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.bd li {
+	float: left;
+}
+.zhao {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
+.tab-con-list {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.bd img {
+	transition: all .2s;
+} 
+.bd img:hover {
+	margin-left: 10px;
+}
+.bd li {
+	overflow: hidden;
+}
+.fixedtool {
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+	display: none;
+}
+.fixedtool li {
+	width:66px;
+	height: 32px;
+	border-bottom: 1px solid #ccc;
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+}
+ .fixedtool .fixedtool-1 {
+	background-color: #c81623;
+	color: white;
+}
